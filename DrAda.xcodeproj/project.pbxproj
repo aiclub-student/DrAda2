@@ -11,6 +11,8 @@
 		AAC508EE280259CD00F9C3A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC508ED280259CD00F9C3A2 /* ContentView.swift */; };
 		AAC508F0280259D200F9C3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC508EF280259D200F9C3A2 /* Assets.xcassets */; };
 		AAC508F3280259D200F9C3A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC508F2280259D200F9C3A2 /* Preview Assets.xcassets */; };
+		AAC508FA28025AD500F9C3A2 /* MedicationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC508F928025AD500F9C3A2 /* MedicationStore.swift */; };
+		AAC508FC28025B0800F9C3A2 /* MedicationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC508FB28025B0800F9C3A2 /* MedicationItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AAC508ED280259CD00F9C3A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAC508EF280259D200F9C3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAC508F2280259D200F9C3A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAC508F928025AD500F9C3A2 /* MedicationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationStore.swift; sourceTree = "<group>"; };
+		AAC508FB28025B0800F9C3A2 /* MedicationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				AAC508EB280259CD00F9C3A2 /* DrAdaApp.swift */,
 				AAC508ED280259CD00F9C3A2 /* ContentView.swift */,
+				AAC508F928025AD500F9C3A2 /* MedicationStore.swift */,
+				AAC508FB28025B0800F9C3A2 /* MedicationItem.swift */,
 				AAC508EF280259D200F9C3A2 /* Assets.xcassets */,
 				AAC508F1280259D200F9C3A2 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC508EE280259CD00F9C3A2 /* ContentView.swift in Sources */,
+				AAC508FA28025AD500F9C3A2 /* MedicationStore.swift in Sources */,
 				AAC508EC280259CD00F9C3A2 /* DrAdaApp.swift in Sources */,
+				AAC508FC28025B0800F9C3A2 /* MedicationItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
