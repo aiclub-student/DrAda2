@@ -24,7 +24,7 @@ class MedicationList: Identifiable, Codable {
     
     func addMedication(medicationItem: MedicationItem) {
         print("Just called - addMedication(). TO-DO. Not implemented yet")
-        return;
+        return;   
     }
     
     func getOneMedication(mainName:String) -> MedicationItem {
