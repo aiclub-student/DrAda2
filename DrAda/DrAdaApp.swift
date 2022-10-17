@@ -11,7 +11,7 @@ import SwiftUI
 struct DrAdaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SampleFileStack()
         }
     }
 }

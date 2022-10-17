@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA9C38FC28FDB4270096AF1A /* SampleFileStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C38FB28FDB4270096AF1A /* SampleFileStack.swift */; };
+		AA9C38FF28FDB4840096AF1A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AA9C38FE28FDB4840096AF1A /* Alamofire */; };
+		AA9C390228FDB4940096AF1A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = AA9C390128FDB4940096AF1A /* SwiftyJSON */; };
+		AA9C390528FDB5150096AF1A /* FilestackSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AA9C390428FDB5150096AF1A /* FilestackSDK */; };
+		AA9C390828FDB52C0096AF1A /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AA9C390728FDB52C0096AF1A /* CryptoSwift */; };
 		AAC508EC280259CD00F9C3A2 /* DrAdaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC508EB280259CD00F9C3A2 /* DrAdaApp.swift */; };
 		AAC508EE280259CD00F9C3A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC508ED280259CD00F9C3A2 /* ContentView.swift */; };
 		AAC508F0280259D200F9C3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC508EF280259D200F9C3A2 /* Assets.xcassets */; };
@@ -16,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA9C38FB28FDB4270096AF1A /* SampleFileStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFileStack.swift; sourceTree = "<group>"; };
 		AAC508E8280259CD00F9C3A2 /* DrAda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrAda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC508EB280259CD00F9C3A2 /* DrAdaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAdaApp.swift; sourceTree = "<group>"; };
 		AAC508ED280259CD00F9C3A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +36,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9C390528FDB5150096AF1A /* FilestackSDK in Frameworks */,
+				AA9C390828FDB52C0096AF1A /* CryptoSwift in Frameworks */,
+				AA9C390228FDB4940096AF1A /* SwiftyJSON in Frameworks */,
+				AA9C38FF28FDB4840096AF1A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +67,7 @@
 			children = (
 				AAC508EB280259CD00F9C3A2 /* DrAdaApp.swift */,
 				AAC508ED280259CD00F9C3A2 /* ContentView.swift */,
+				AA9C38FB28FDB4270096AF1A /* SampleFileStack.swift */,
 				AAC508F928025AD500F9C3A2 /* MedicationStore.swift */,
 				AAC508FB28025B0800F9C3A2 /* MedicationItem.swift */,
 				AAC508EF280259D200F9C3A2 /* Assets.xcassets */,
@@ -89,6 +100,12 @@
 			dependencies = (
 			);
 			name = DrAda;
+			packageProductDependencies = (
+				AA9C38FE28FDB4840096AF1A /* Alamofire */,
+				AA9C390128FDB4940096AF1A /* SwiftyJSON */,
+				AA9C390428FDB5150096AF1A /* FilestackSDK */,
+				AA9C390728FDB52C0096AF1A /* CryptoSwift */,
+			);
 			productName = DrAda;
 			productReference = AAC508E8280259CD00F9C3A2 /* DrAda.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +134,12 @@
 				Base,
 			);
 			mainGroup = AAC508DF280259CD00F9C3A2;
+			packageReferences = (
+				AA9C38FD28FDB4840096AF1A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AA9C390028FDB4940096AF1A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				AA9C390328FDB5150096AF1A /* XCRemoteSwiftPackageReference "filestack-swift" */,
+				AA9C390628FDB52C0096AF1A /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = AAC508E9280259CD00F9C3A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,6 +170,7 @@
 				AAC508FA28025AD500F9C3A2 /* MedicationStore.swift in Sources */,
 				AAC508EC280259CD00F9C3A2 /* DrAdaApp.swift in Sources */,
 				AAC508FC28025B0800F9C3A2 /* MedicationItem.swift in Sources */,
+				AA9C38FC28FDB4270096AF1A /* SampleFileStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +371,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA9C38FD28FDB4840096AF1A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AA9C390028FDB4940096AF1A /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AA9C390328FDB5150096AF1A /* XCRemoteSwiftPackageReference "filestack-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/filestack/filestack-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		AA9C390628FDB52C0096AF1A /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA9C38FE28FDB4840096AF1A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA9C38FD28FDB4840096AF1A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AA9C390128FDB4940096AF1A /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA9C390028FDB4940096AF1A /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		AA9C390428FDB5150096AF1A /* FilestackSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA9C390328FDB5150096AF1A /* XCRemoteSwiftPackageReference "filestack-swift" */;
+			productName = FilestackSDK;
+		};
+		AA9C390728FDB52C0096AF1A /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA9C390628FDB52C0096AF1A /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAC508E0280259CD00F9C3A2 /* Project object */;
 }
